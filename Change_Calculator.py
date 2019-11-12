@@ -1,4 +1,15 @@
-money = {"$100 Bill": 10000, "$50 Bill": 5000, "$20 Bill": 2000, "$10 Bill": 1000, "$5 Bill": 500, "$1 Bill": 100, "Quarter": 25, "Dime": 10, "Nickel": 5, "Penny": 1}
+money = {
+    "$100 Bill": 10000, 
+    "$50 Bill": 5000,
+    "$20 Bill": 2000, 
+    "$10 Bill": 1000, 
+    "$5 Bill": 500, 
+    "$1 Bill": 100, 
+    "Quarter": 25, 
+    "Dime": 10, 
+    "Nickel": 5, 
+    "Penny": 1
+}
 
 def calc_change(cost, money_given):
     if cost > money_given:
