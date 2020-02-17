@@ -1,5 +1,5 @@
 # Change-Calculator
-This is an algorithm that prints the exact composition of the change that needs to be returned. The first parameter is total cost, and the second parameter is the amount of cash used to pay for the cost.
+This is an algorithm that prints the exact composition of the change that needs to be returned. The first parameter is total cost, and the second parameter is the amount of cash used to pay for the cost. I saw a similar system being used in an actual cash register.
 
 ```python
 calc_change(76.42, 100)
